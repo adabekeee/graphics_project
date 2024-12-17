@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Drawing Algorithms</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="container2">
+    <div class="calculations">
+        <div class="values">
+            <div >
+                <label for="lineX1">Value of X</label>
+                <input type="number" id="x1" name="lineX1" class="circleInput" required>
+                <label for="lineY1">Value of Y</label>
+                <input type="number" id="y1" name="lineY1" class="circleInput" required>
+                <label for="lineX2">Value of X</label>
+                <input type="number" id="x2" iname="lineX2" class="circleInput" required>
+                <label for="lineY2">Value of Y</label>
+                <input type="number" id="y2" name="lineY2" class="circleInput" required>
+                <input type="button" onclick="handleLineAlgorithm()" id="lineRun" value="RUN"/>
+            </div>
+            <p>Want to perform circle algorithms? <a href="/circleAlgorithm">circle algorithm</a></p>
+        </div>
+        <div class="diagrams">
+            <p>DDA CIRCLE ALGORITHM</p>
+            <canvas id="canvas1" style="border: 1px solid black;"></canvas>
+            <p>BRESENHAM CIRCLE ALGORITHM</p>
+            <canvas id="canvas2" style="border: 1px solid black;"></canvas>
+            <p>MID POINT CIRCLE ALGORITHM</p>
+            <canvas id="canvas3" style="border: 1px solid black;"></canvas>
+        </div>
+    </div>
+    <script src="/algorithms.js"></script>
+</body>
+</html>

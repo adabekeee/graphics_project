@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>circle Drawing Algorithms</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="container2">
+   <div class="calculations2">
+        <div class="values2">
+            <div>
+                <label for="circleX">Value of X</label>
+                <input type="number" id="x" name="circleX" class="circleInput" required>
+                <label for="circleY">Value of Y</label>
+                <input type="number" id="y" name="circleY" class="circleInput" required>
+                <label for="circleRadius">Radius of Circle</label>
+                <input type="number" id="radius" name="circleRadius" class="circleInput" required>
+                <input type="button" onclick="handleCircleAlgorithm()" id="circleRun" value="RUN"/>
+            </div>
+            <p>Want to perform line algorithms? <a href="/lineAlgorithm">line algorithm</a></p>
+        </div>
+        <div class="diagrams2">
+            <p>BRESENHAM CIRCLE ALGORITHM</p>
+            <canvas id="canvas4" style="border: 1px solid black;"></canvas>
+            <p>MID POINT CIRCLE ALGORITHM</p>
+            <canvas id="canvas5" style="border: 1px solid black;"></canvas>
+        </div>
+   </div>
+   <script src="/algorithms.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#index{
+    background: linear-gradient( rgba(41, 24, 110, 0.8), rgb(21, 1, 23));
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+#container{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 100vh;
+    max-height: 50%;
+    width: 50%;
+}
+#container h1{
+    text-align: center;
+    padding: 6px;
+}
+#container p{
+    text-align: center;
+}
+#container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    width: 100%;
+    gap: 20px;
+}
+.button{
+    width: 190px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(27, 19, 19);
+    color: #fff;
+    border: none;
+}
+
+.calculations{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    height: 100vh;
+    background: radial-gradient( rgba(41, 24, 110, 0.8), rgb(21, 1, 23));
+    width: 100%;
+   padding: 20px;
+}
+.values {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 90vh;
+    width: 90%;
+}
+.values div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.values p {
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+.values div input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.diagrams {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 90vh;
+    width: 90%;
+}
+.diagrams canvas {
+    width: 90%;
+    max-height: 30%;
+}
+#lineRun {
+    width: 150%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(27, 19, 19);
+    color: #fff;
+    border: none;
+}
+#circleRun {
+    width: 150%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(27, 19, 19);
+    color: #fff;
+    border: none;
+}
+.calculations2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    height: 100vh;
+    background: radial-gradient( rgba(41, 24, 110, 0.8), rgb(21, 1, 23));
+    width: 100%;
+    padding: 20px;
+}
+.values2 {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 90vh;
+    width: 90%;
+}
+.values2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.values2 p {
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+.values2 div input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.diagrams2 {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 90vh;
+    width: 90%;
+}
+
+.diagrams canvas {
+    padding: 30px;
+}
